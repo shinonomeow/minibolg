@@ -1,0 +1,5 @@
+tmp_dir = "/tmp/air"
+[build]
+cmd = "go build -o _output/mb-apiserver -v cmd/mb-apiserver/main.go"
+bin = "_output/mb-apiserver"
+args_bin = []
